@@ -20,7 +20,7 @@
 
   <body>
     <nav class="navbar navbar-default">
-      <div class="container-fluid">
+      <div id="nav-container" class="container-fluid"
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -29,27 +29,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html#">Sparta League</a>
+          <a class="navbar-brand" href="index.html#"> <img src="./images/SG Logo - White.png" alt=""> </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <img id="premier-img" src="./images/premier-League-Logo.png" alt="">
           <ul class="nav navbar-nav navbar-right">
               <li><a href="users/sign_in">Login</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+    </div>
     </nav>
     <div class="container-fluid">
       <div class="row">
   <div class="col-md-12">
-    <p id="notice"></p>
+    <h1 id="notice">The Sparta League</h1>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-12">
-    <table class="table">
+  <div class="col-md-6">
+    <table class="table table-bordered">
       <thead>
         <tr>
           <th></th>
@@ -111,6 +112,16 @@
           </tr>
       </tbody>
     </table>
+  </div>
+
+  <div class="col-md-6">
+    <div class="jumbotron">
+      <h2>Best in the league</h2>
+      <img id="winner-img" src="./images/profile.jpg" alt="" class="img-responsive">
+      <h3>How long will Bob Smith Remain at the top?</h3>
+
+    </div>
+
   </div>
 </div>
 

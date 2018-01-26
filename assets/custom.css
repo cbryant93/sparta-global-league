@@ -1,3 +1,11 @@
+body{
+background: #480F53;
+font-family: 'spartan';
+}
+
+h1{
+  color: white;
+}
 
 .fa-caret-down {
   color: red;
@@ -7,11 +15,18 @@
 .fa-caret-up {
   color: green;
 }
+table{
+  color: white;
+}
+
+thead{
+  background: #00191C;
+}
 
 /* First two should be green ( or a colour that shows it's good ) */
 tr.contestant:nth-child(1),
 tr.contestant:nth-child(2) {
-  background-color: #9aeda7;
+  background-color: #00552C;
 }
 
 
@@ -20,7 +35,7 @@ tr.contestant:nth-child(3),
 tr.contestant:nth-child(4),
 tr.contestant:nth-child(5),
 tr.contestant:nth-child(6) {
-  background-color: #f1f442;
+  background-color: #007494;
 }
 
 
@@ -28,5 +43,45 @@ tr.contestant:nth-child(6) {
 tr.contestant:nth-last-child(1),
 tr.contestant:nth-last-child(2),
 tr.contestant:nth-last-child(3) {
-  background-color: #ff8484;
+  background-color: #B80043;
+}
+
+.jumbotron {
+  text-align: center;
+  background: #00191C;
+  color: white;
+
+}
+
+#winner-img{
+  max-width: 300px;
+  margin-left: 25%;
+}
+
+
+.navbar-default{
+  background: #00191C;
+  padding-bottom: 5px;
+}
+
+.container-fluid{
+  background: ;
+}
+
+.navbar-brand img{
+  max-width: 80px;
+}
+
+#nav-container{
+  background: #00191C;
+}
+
+#premier-img{
+  max-width: 80px;
+  padding-right: 1%;
+}
+
+@font-face {
+  font-family: "spartan";
+  src:url(../fonts/DDCHardware_Personal_License/DDCHardware_OTF/DDCHardware-Regular.otf);
 }
