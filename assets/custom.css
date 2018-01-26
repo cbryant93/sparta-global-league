@@ -59,7 +59,7 @@ tr.contestant:nth-last-child(3) {
 }
 
 
-.navbar-default .navbar-collapse, .navbar-default{
+.navbar-default{
   background: #00191C;
   padding-bottom: 5px;
 }
